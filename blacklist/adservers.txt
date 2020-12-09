@@ -1,0 +1,4 @@
+# Host file to block ads
+#==============================
+0.0.0.0 hobfadbig.com
+0.0.0.0 in-suntv.videoplaza.tv
