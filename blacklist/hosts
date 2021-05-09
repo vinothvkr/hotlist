@@ -1,0 +1,5 @@
+# Host file to block hosts
+# ==============================
+
+0.0.0.0 hobfadbig.com
+0.0.0.0 in-suntv.videoplaza.tv
