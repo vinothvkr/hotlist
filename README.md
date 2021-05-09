@@ -10,4 +10,4 @@
 - https://v.firebog.net/hosts/static/w3kbl.txt  WaLLy3K
 - https://v.firebog.net/hosts/AdguardDNS.txt    AdguardDNS
 - https://v.firebog.net/hosts/Easyprivacy.txt   Easyprivacy
-- https://raw.githubusercontent.com/vinothvkr/pi-hole/master/blacklist/adservers.txt    VinothVKR
+- https://raw.githubusercontent.com/vinothvkr/pi-hole/master/blacklist/hosts    VinothVKR
