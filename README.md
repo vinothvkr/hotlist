@@ -1,6 +1,7 @@
 # Ads/Malware Lists used in my Pi-hole
 
 URL | Description
+--- | -----------
 https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt | Disconnect_Me_ADs
 https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt | Disconnect_Me_Tracking
 https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt | Disconnect_Me_Malv
