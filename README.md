@@ -17,3 +17,4 @@ https://v.firebog.net/hosts/Easylist.txt | Easylist
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts | hostsVN
 https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt | DigitalSide
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt | QuidsUp
+https://phishing.army/download/phishing_army_blocklist_extended.txt | PhishingArmy
