@@ -19,3 +19,8 @@ https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt | DigitalSide
 https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt | QuidsUp
 https://phishing.army/download/phishing_army_blocklist_extended.txt | PhishingArmy
 https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt | Frogeye_FPT
+https://v.firebog.net/hosts/Admiral.txt | Admiral
+https://v.firebog.net/hosts/Prigent-Ads.txt | Prigent-Ads
+https://v.firebog.net/hosts/Prigent-Crypto.txt | Prigent-Crypto
+https://v.firebog.net/hosts/Shalla-mal.txt | Shalla-mal
+https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser | ZeroDot1
