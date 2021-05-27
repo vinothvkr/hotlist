@@ -24,3 +24,5 @@ https://v.firebog.net/hosts/Prigent-Ads.txt | Prigent-Ads
 https://v.firebog.net/hosts/Prigent-Crypto.txt | Prigent-Crypto
 https://v.firebog.net/hosts/Shalla-mal.txt | Shalla-mal
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser | ZeroDot1
+https://kriskintel.com/feeds/ktip_malicious_domains.txt | Kriskintel_ML
+https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt | Blackbook_ML
