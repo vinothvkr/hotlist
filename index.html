@@ -11,13 +11,28 @@
   <body class="bg-dark text-light">
     <div class="container">
       <div class="row">
-        <div class="col-12 mt-4">
-          <h1 class="text-center">Hotlist</h1>
+        <div class="col-12 mt-4 text-center">
+          <h1>Hotlist</h1>
+          <p>A collection of blacklist which I use in my Pi-hole, hope it will be helpful for others.</p>
+          <h4>My Pi-hole setup</h4>
+          <p>Raspberry Pi 3 model B+ • Raspberry Pi OS • Configured as DNS Server in pfSense DHCP Server</p>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-12">
+        <div class="col-12 mb-3">
+          <h2>Master List</h2>
+          <ul>
+            <li>
+              <a class="link-light" href="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts">
+                https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts</a>
+              <span class="badge bg-secondary ms-2">StevenBlack</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 mb-3">
           <h2>Ad Lists</h2>
           <ul>
             <li>
@@ -25,9 +40,140 @@
                 https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt</a>
               <span class="badge bg-secondary ms-2">Disconnect</span>
             </li>
+            <li>
+              <a class="link-light" href="https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt">
+                https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt</a>
+              <span class="badge bg-secondary ms-2">AnudeepND</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://v.firebog.net/hosts/AdguardDNS.txt">
+                https://v.firebog.net/hosts/AdguardDNS.txt</a>
+              <span class="badge bg-secondary ms-2">AdguardDNS</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://v.firebog.net/hosts/Easylist.txt">
+                https://v.firebog.net/hosts/Easylist.txt</a>
+              <span class="badge bg-secondary ms-2">Easylist</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts">
+                https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts</a>
+              <span class="badge bg-secondary ms-2">HostsVN</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://v.firebog.net/hosts/Admiral.txt">
+                https://v.firebog.net/hosts/Admiral.txt</a>
+              <span class="badge bg-secondary ms-2">WaLLy3K</span>
+            </li>
           </ul>
         </div>
       </div>
+      <div class="row">
+        <div class="col-12 mb-3">
+          <h2>Tracking Lists</h2>
+          <ul>
+            <li>
+              <a class="link-light" href="https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt">
+                https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt</a>
+              <span class="badge bg-secondary ms-2">Disconnect</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://v.firebog.net/hosts/Easyprivacy.txt">
+                https://v.firebog.net/hosts/Easyprivacy.txt</a>
+              <span class="badge bg-secondary ms-2">Easyprivacy</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt">
+                https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt</a>
+              <span class="badge bg-secondary ms-2">Frogeye_FPT</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://v.firebog.net/hosts/Prigent-Ads.txt">
+                https://v.firebog.net/hosts/Prigent-Ads.txt</a>
+              <span class="badge bg-secondary ms-2">WaLLy3K</span>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 mb-3">
+          <h2>Malicious Lists</h2>
+          <ul>
+            <li>
+              <a class="link-light" href="https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt">
+                https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt</a>
+              <span class="badge bg-secondary ms-2">Disconnect</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://v.firebog.net/hosts/static/w3kbl.txt">
+                https://v.firebog.net/hosts/static/w3kbl.txt</a>
+              <span class="badge bg-secondary ms-2">WaLLy3K</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt">
+                https://raw.githubusercontent.com/stamparm/aux/master/maltrail-malware-domains.txt</a>
+              <span class="badge bg-secondary ms-2">Maltrail</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt">
+                https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt</a>
+              <span class="badge bg-secondary ms-2">Spam404</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://www.stopforumspam.com/downloads/toxic_domains_whole.txt">
+                https://www.stopforumspam.com/downloads/toxic_domains_whole.txt</a>
+              <span class="badge bg-secondary ms-2">SFS_Toxic</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt">
+                https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt</a>
+              <span class="badge bg-secondary ms-2">DigitalSide</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt">
+                https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt</a>
+              <span class="badge bg-secondary ms-2">QuidsUp</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://phishing.army/download/phishing_army_blocklist_extended.txt">
+                https://phishing.army/download/phishing_army_blocklist_extended.txt</a>
+              <span class="badge bg-secondary ms-2">PhishingArmy</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://v.firebog.net/hosts/Prigent-Crypto.txt">
+                https://v.firebog.net/hosts/Prigent-Crypto.txt</a>
+              <span class="badge bg-secondary ms-2">WaLLy3K</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://v.firebog.net/hosts/Shalla-mal.txt">
+                https://v.firebog.net/hosts/Shalla-mal.txt</a>
+              <span class="badge bg-secondary ms-2">WaLLy3K</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://kriskintel.com/feeds/ktip_malicious_domains.txt">
+                https://kriskintel.com/feeds/ktip_malicious_domains.txt</a>
+              <span class="badge bg-secondary ms-2">Kriskintel</span>
+            </li>
+            <li>
+              <a class="link-light" href="https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt">
+                https://raw.githubusercontent.com/stamparm/blackbook/master/blackbook.txt</a>
+              <span class="badge bg-secondary ms-2">Blackbook</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 mb-3">
+          <h2>Crypto Lists</h2>
+          <ul>
+            <li>
+              <a class="link-light" href="https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser">
+                https://zerodot1.gitlab.io/CoinBlockerLists/hosts_browser</a>
+              <span class="badge bg-secondary ms-2">ZeroDot1</span>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
