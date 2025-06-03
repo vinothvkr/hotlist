@@ -1,10 +1,8 @@
 # Host file to block ads and more
 # Homepage: https://github.com/vinothvkr/pi-hole
 # Licence: https://github.com/vinothvkr/pi-hole/blob/master/LICENSE
-# Domain count: 3
+# Domain count: 2
 # =================================================================
 0.0.0.0 hobfadbig.com
 #[sunnxt.com]
 0.0.0.0 in-suntv.videoplaza.tv
-#[hotstar.com]
-0.0.0.0 hesads.akamaized.net
